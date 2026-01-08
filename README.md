@@ -4,7 +4,7 @@ Para este laboratório da DIO sobre AWS SageMaker Canvas, estruturei o conteúdo
 Este repositório contém a documentação e os artefatos do projeto de Machine Learning No-Code para previsão de estoque, desenvolvido durante o bootcamp na Digital Innovation One (DIO). O objetivo é demonstrar como utilizar inteligência artificial para otimizar a cadeia de suprimentos com baixo esforço de codificação, mas alto rigor analítico.
 
 🛠️ Tech Stack & Arquitetura
-Plataforma: Amazon SageMaker Canvas
+Plataforma: [Amazon SageMaker Canvas](https://aws.amazon.com/sagemaker/canvas/)
 
 Dados: Dataset de 500 registros (Séries Temporais)
 
@@ -13,10 +13,10 @@ Abordagem: Time-Series Forecasting (No-Code ML)
 Governança: AWS IAM & S3
 
 📋 Fluxo do Projeto (Step-by-Step)
-Com base no framework proposto no repositório original, o desenvolvimento seguiu as etapas abaixo:
+Com base no framework proposto no [repositório original](https://github.com/digitalinnovationone/lab-aws-sagemaker-canvas-estoque?tab=readme-ov-file#1-selecionar-dataset), o desenvolvimento seguiu as etapas abaixo:
 
 1. Selecionar Dataset
-Origem: Upload do arquivo dataset-500-curso-sagemaker-canvas-dio.csv para o SageMaker Canvas.
+Origem: Upload do arquivo [ dataset-500-curso-sagemaker-canvas-dio.csv](https://github.com/digitalinnovationone/lab-aws-sagemaker-canvas-estoque/blob/main/datasets/dataset-500-curso-sagemaker-canvas-dio.csv)  para o SageMaker Canvas.
 
 Análise Exploratória Inicial: Identificação das colunas ID_PRODUTO, DIA, FLAG_PROMOCAO e a variável alvo QUANTIDADE_ESTOQUE.
 
@@ -61,11 +61,11 @@ Ajuste de Promocionais: O modelo capturou com sucesso que itens em promoção ne
 👤 Autor
 Marcos Ferreira Cabral
 
-Data Engineer com mais de 18 anos de sólida experiência em Tecnologia da Informação.
+Data Engineer com mais de 20 anos de sólida experiência em Tecnologia da Informação.
 
 Mestre em Administração de Empresas (MUST University) | MBA em Big Data e Data Science (FIAP).
 
 Responsável por soluções de dados no Itaú e entusiasta de IA e LLMOps.
 
 📄 Licença
-Este projeto está sob a licença MIT. Veja o arquivo LICENSE para mais detalhes.
+Este projeto está sob a licença MIT. Veja o arquivo [LICENSE](https://www.google.com/search?q=LICENSE) para mais detalhes.
