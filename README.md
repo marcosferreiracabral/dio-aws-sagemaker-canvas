@@ -38,7 +38,7 @@ Após o treinamento, o modelo foi avaliado com as seguintes métricas (benchmark
 
 Avg. wQL (Weighted Quantile Loss): Avaliação da precisão da distribuição.
 
-MAPE/RMSE: Verificação do desvio padrão das previsões em relação ao estoque real.
+MAPE / RMSE: Verificação do desvio padrão das previsões em relação ao estoque real.
 
 Impacto de Variáveis: Verificação de como a FLAG_PROMOCAO influencia os picos de demanda.
 
@@ -56,20 +56,16 @@ Agilidade de Negócio: O SageMaker Canvas reduz drasticamente o tempo de Time-to
 
 Qualidade dos Dados (GIGO): Mesmo sendo No-Code, a eficácia do modelo depende diretamente de um pipeline de ETL bem estruturado (como os que construímos com PySpark).
 
-Ajuste de Promocionais: O modelo capturou com sucesso que itens em promoção necessitam de um estoque de segurança 20% maior.
+Ajuste de Promocionais: O modelo capturou com sucesso que itens em promoção necessitam de um estoque de segurança ~20% maior.
 
 👤 Autor
 Marcos Ferreira Cabral
 
-Data Engineer com 20 anos de experiência em TI.
+Data Engineer com mais de 18 anos de sólida experiência em Tecnologia da Informação.
 
-Mestre em Administração (MUST University) | MBA em Big Data (FIAP).
+Mestre em Administração de Empresas (MUST University) | MBA em Big Data e Data Science (FIAP).
 
-Especialista em soluções de dados no Itaú e entusiasta de LLMOps.
+Responsável por soluções de dados no Itaú e entusiasta de IA e LLMOps.
 
 📄 Licença
 Este projeto está sob a licença MIT. Veja o arquivo LICENSE para mais detalhes.
-
-Dica de Tech Lead: Se você for integrar este modelo em produção, recomendo utilizar o Amazon EventBridge para disparar o treinamento sempre que novos dados de vendas caírem no S3.
-
-Marcos, você gostaria que eu formatasse este README em um arquivo .md pronto para você subir no seu GitHub pessoal?
